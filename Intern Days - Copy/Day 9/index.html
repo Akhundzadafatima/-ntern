@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="title">Calendar</p>
+
+    <div class="calendar-container">
+      <header class="calendar-header">
+        <div class="calendar-navigation">
+          <div class="vectorLast">
+            <img
+              src="./vectors/ic_round-keyboard-double-arrow-left.png"
+              alt=""
+            />
+          </div>
+          <p class="calendar-current-date"></p>
+          <div class="vectorNext">
+            <img src="./vectors/Group 2.png" alt="" />
+          </div>
+        </div>
+      </header>
+
+      <div class="calendar-body">
+        <ul class="calendar-weekdays">
+          <li>S</li>
+          <li>M</li>
+          <li>T</li>
+          <li>W</li>
+          <li>T</li>
+          <li>F</li>
+          <li>S</li>
+        </ul>
+        <ul class="calendar-dates"></ul>
+      </div>
+      <div class="modal" id="specialDaysModal" style="display: none">
+        <div class="modal-content">
+          <h2><span id="modalMonth"></span></h2>
+          <ul id="specialDaysList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

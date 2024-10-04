@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #1b1c37;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.mainLogo {
+  width: 150px;
+}
+.signMedia {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.detail {
+  font-size: 16px;
+  display: flex;
+  gap: 5px;
+  opacity: 70%;
+}
+.detail > :last-child {
+  color: #3537c2;
+  font-weight: 700;
+}
+.titleLogo {
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 80%;
+}
+.mediaLogos img {
+  width: 30px;
+  border-radius: 50%;
+}
+.logo {
+  width: 180px;
+  padding: 5px 0;
+  border: 1px solid #1b1c37;
+  border-radius: 8px;
+  text-align: center;
+  opacity: 60%;
+  cursor: pointer;
+}
+.logo:hover {
+  background-color: rgb(173, 173, 173);
+}
+.mediaLogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.text {
+  opacity: 80%;
+  width: 500px;
+}
+.lines .div {
+  height: 2px;
+  width: 100%;
+  background-color: #1b1c37;
+  opacity: 60%;
+}
+.lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+label {
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 80%;
+}
+.inputs div {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  font-size: 16px;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 8px;
+  opacity: 50%;
+  border: 1px solid #1b1c37;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 10px;
+}
+.right img {
+  width: 800px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right {
+  height: 720px;
+  overflow: hidden;
+}
+.end {
+  font-size: 16px;
+  opacity: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  border: 1px solid #1b1c37;
+  background-color: white;
+  cursor: pointer;
+}
+.remember {
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+}
+.forgot {
+  color: #3537c2;
+  font-weight: 700;
+}
+.buttonn {
+  font-size: 16px;
+  background-color: #3537c2;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonn:hover {
+  background-color: #232587;
+  cursor: pointer;
+}
+
+input[type="password"]:focus {
+  border: 3px solid #274f7a;
+  opacity: 100%;
+  outline: none;
+}
+
+input.error {
+  border: 2px solid red;
+  opacity: 100%;
+}
+.flower.tik::after {
+  content: "🌸";
+  margin-left: 5px;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input.success {
+  border: 3px solid green;
+  opacity: 100%;
+}
+.yellow {
+  border: 3px solid rgb(255, 234, 0);
+  opacity: 100%;
+}
